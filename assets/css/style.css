@@ -9,7 +9,12 @@
 
 :root {
     --branco: #fff;
+    --preto: #111;
     --fonte: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--preto);
 }
 
 header {
@@ -17,7 +22,7 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    margin: 40px 100px;
+    padding: 40px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,8 +33,16 @@ header .logo {
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
+    color: var(--branco);
 }
 
 .toggle {
-    
+    position: relative;
+    background: url('/assets/img/menu.png');
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
