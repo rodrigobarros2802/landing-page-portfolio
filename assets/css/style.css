@@ -11,3 +11,25 @@
     --branco: #fff;
     --fonte: 'Poppins', sans-serif;
 }
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.toggle {
+    
+}
