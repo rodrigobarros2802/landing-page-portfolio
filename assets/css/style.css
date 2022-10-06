@@ -10,6 +10,7 @@
 :root {
     --branco: #fff;
     --preto: #111;
+    --azul: #40c3ff;
     --fonte: 'Poppins', sans-serif;
 }
 
@@ -34,6 +35,8 @@ header .logo {
     font-size: 2em;
     text-decoration: none;
     color: var(--branco);
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .toggle {
