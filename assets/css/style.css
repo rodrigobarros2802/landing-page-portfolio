@@ -84,4 +84,41 @@ header .logo {
 .conteudo-texto p {
     color: var(--branco);
     font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.saiba-mais {
+    background: var(--branco);
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: var(--preto);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes li {
+    list-style: none;
+   
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.redes img {
+    filter: invert(1);
+    transform: scale(0.6);
 }
