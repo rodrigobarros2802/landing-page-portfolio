@@ -133,10 +133,6 @@ header .logo {
     transition: 0.5s;
 }
 
-.redes li:hover {
-    transform: translateX(-20px);
-}
-
 .redes li {
     list-style: none;
 }
