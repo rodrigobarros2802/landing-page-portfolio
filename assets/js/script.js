@@ -1,4 +1,4 @@
 function toggle() {
-    var secao = document.querySelector('.secao');
+    var secao = document.getElementById('sec');
     secao.classList.toggle('active');
 }
