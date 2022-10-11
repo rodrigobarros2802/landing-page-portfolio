@@ -54,7 +54,7 @@ header {
     justify-content: space-between;
 }
 
-header .logo {
+.logo {
     position: relative;
     font-weight: 700;
     font-size: 2em;
@@ -62,7 +62,7 @@ header .logo {
     color: var(--branco);
     text-transform: uppercase;
     letter-spacing: 2px;
-
+    cursor: pointer;
 }
 
 .toggle {
