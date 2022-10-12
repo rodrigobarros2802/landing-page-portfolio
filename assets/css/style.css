@@ -157,3 +157,9 @@ header .toggle {
     mix-blend-mode: difference;
     max-width: 20px;
 }
+
+.navegacao {
+    position: fixed;
+    width: 600px;
+    min-height: 100vh;
+}
