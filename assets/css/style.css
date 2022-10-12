@@ -54,7 +54,7 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+header .logo {
     position: relative;
     font-weight: 700;
     font-size: 2em;
@@ -65,7 +65,7 @@ header {
     cursor: pointer;
 }
 
-.toggle {
+header .toggle {
     position: relative;
     background: url('/assets/img/menu.png');
     width: 32px;
