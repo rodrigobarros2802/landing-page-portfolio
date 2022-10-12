@@ -166,3 +166,7 @@ header .toggle {
     justify-content: center;
     align-items: center;
 }
+
+.navegacao li {
+    list-style: none;
+}
