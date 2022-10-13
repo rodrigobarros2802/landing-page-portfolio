@@ -175,4 +175,5 @@ header .toggle {
     text-decoration: none;
     color: var(--branco);
     font-weight: 700;
+    font-size: 24px;
 }
