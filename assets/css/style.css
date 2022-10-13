@@ -173,4 +173,5 @@ header .toggle {
 
 .navegacao li a {
     text-decoration: none;
+    color: var(--branco);
 }
