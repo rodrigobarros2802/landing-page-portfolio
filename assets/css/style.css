@@ -170,3 +170,7 @@ header .toggle {
 .navegacao li {
     list-style: none;
 }
+
+.navegacao li a {
+    text-decoration: none;
+}
