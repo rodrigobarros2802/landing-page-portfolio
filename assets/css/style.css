@@ -160,11 +160,11 @@ header .toggle {
 
 .navegacao {
     position: fixed;
-    width: 600px;
+    max-width: 600px;
     min-height: 100vh;
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
+    font-size: 2em;
 }
 
 .navegacao li {
