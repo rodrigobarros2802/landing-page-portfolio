@@ -185,3 +185,26 @@ header .toggle {
 .navegacao li a:hover {
     color: var(--preto);
 }
+
+@media (max-width: 767px) {
+    header {
+        padding: 20px 50px;
+    }
+
+    .secao {
+        padding: 100px 50px 150px;
+    }
+
+    .conteudo-texto h2 {
+        font-size: 1.8em;
+    }
+
+    .conteudo-texto p {
+        font-size: 1em;
+    }
+
+    .secao.active {
+        transform: translateX(-400px);
+    }
+
+}
