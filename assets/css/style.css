@@ -186,7 +186,7 @@ header .toggle {
     color: var(--preto);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
     header {
         padding: 20px 50px;
     }
@@ -212,4 +212,12 @@ header .toggle {
         margin: 5px 0;
     }
 
+    .redes {
+        position: absolute;
+        margin-top: 150px;
+        right: initial;
+        flex-direction: row;
+    }
+
+    
 }
