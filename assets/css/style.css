@@ -207,4 +207,9 @@ header .toggle {
         transform: translateX(-400px);
     }
 
+    .navegacao ul li a {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+
 }
